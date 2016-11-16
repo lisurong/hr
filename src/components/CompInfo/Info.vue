@@ -1,6 +1,6 @@
 <template>
   <div class="item margin20">
-    <card-title title="企业信息"></card-title>
+    <card-title title="企业信息y"></card-title>
     <div class="i-w">
       <div class="i-c">
         <div class="i-l">
