@@ -396,6 +396,12 @@ export default {
       height: 15px;
       line-height: 15px;
     }
+    &.first{
+      padding: 18px 8px;
+      span{
+        text-align: left;
+      }
+    }
     &.last{
       span{
         border-right: none;
@@ -472,6 +478,9 @@ export default {
         background: url("/static/images/btn/recharge/cz-btn-h.png") no-repeat 0 0;
       }
     }*/   
+  }
+  .button-primary:active, .button-primary.active, .button-primary.is-active, .button-primary-flat:active, .button-primary-flat.active, .button-primary-flat.is-active{
+    color: #fff;
   }
   .button-3d{
     width: 128px;

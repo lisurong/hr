@@ -1,6 +1,6 @@
 <template>
   <div class="item margin20">
-    <card-title title="企业信息y"></card-title>
+    <card-title title="企业信息"></card-title>
     <div class="i-w">
       <div class="i-c">
         <div class="i-l">
@@ -30,7 +30,7 @@
         </div>
         <div class="b-c">
           <div class="i-b">
-            <a v-link="{ path: '/comp/123/edit' }" class="button button-3d button-primary button-pill">更改</a>
+            <a v-link="{ path: '/comp/123?act=edit' }" class="button button-3d button-primary button-pill">更改</a>
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import CardTitle from '../widgets/CardTitle'
+import CardTitle from 'widgets/CardTitle'
 
 const $ = require('jquery')
 export default {

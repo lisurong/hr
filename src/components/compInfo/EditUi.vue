@@ -89,7 +89,7 @@
         </div>
         <div class="b-c">
           <div class="i-b">
-            <a v-link="{ path: '/comp/123' }" class="button button-3d button-primary button-pill">确认</a>
+            <a v-link="{ path: '/comp/123' }" class="button button-3d button-primary button-pill">更改</a>
           </div>
         </div>
     </div>
